@@ -6,7 +6,7 @@ import puppeteer from 'puppeteer';
   const page = await browser.newPage();
 
   // Navigate the page to a URL
-  await page.goto('https://developer.chrome.com/');
+  await page.goto('https://www.walkscore.com/score/1130-e-450-n-provo-ut-84606');
 
   // Set screen size
   await page.setViewport({width: 1080, height: 1024});
