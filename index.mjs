@@ -12,7 +12,7 @@ import puppeteer from 'puppeteer';
   await page.setViewport({width: 1080, height: 1024});
 
   // Take a screenshot of the page
-  await page.screenshot({path: 'screenshot.png'});
+  await page.screenshot({path: `/screenshots/${new Date().toISOString()}.png`});
 
   await browser.close();
 })();
