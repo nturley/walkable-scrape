@@ -1,6 +1,9 @@
 name: Scrape Walkability
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch: {}
   schedule:
     # noon on Mondays
