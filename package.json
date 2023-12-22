@@ -1,0 +1,23 @@
+{
+  "name": "walkable-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "run": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nturley/walkable-scrape.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nturley/walkable-scrape/issues"
+  },
+  "homepage": "https://github.com/nturley/walkable-scrape#readme",
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  }
+}
